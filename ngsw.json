@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1622307804115,
+  "timestamp": 1622308325586,
   "index": "https://koustav17.github.io/angular-pwa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://koustav17.github.io/angular-pwa/favicon.ico",
         "https://koustav17.github.io/angular-pwa/index.html",
-        "https://koustav17.github.io/angular-pwa/main.afa4e2bdbe0032992981.js",
+        "https://koustav17.github.io/angular-pwa/main.adcd73b38cdad724836a.js",
         "https://koustav17.github.io/angular-pwa/manifest.webmanifest",
         "https://koustav17.github.io/angular-pwa/polyfills.0097201d2459fdce22ee.js",
         "https://koustav17.github.io/angular-pwa/runtime.edf4ff6924b895aead86.js",
@@ -52,8 +52,8 @@
     "https://koustav17.github.io/angular-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://koustav17.github.io/angular-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://koustav17.github.io/angular-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://koustav17.github.io/angular-pwa/index.html": "3517f6461f9d6d317064207975c255045ab4c1c7",
-    "https://koustav17.github.io/angular-pwa/main.afa4e2bdbe0032992981.js": "a66890c83d2868acf7170c5cd874003e50cce185",
+    "https://koustav17.github.io/angular-pwa/index.html": "d8f26dd4e2f0773011c73b41d3c9091afc9fc106",
+    "https://koustav17.github.io/angular-pwa/main.adcd73b38cdad724836a.js": "8ab8b98ffc6d2321f337cb264c399c73ad90ca53",
     "https://koustav17.github.io/angular-pwa/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
     "https://koustav17.github.io/angular-pwa/polyfills.0097201d2459fdce22ee.js": "fcf07ba4ac7c0234224f58c4bea52842b30e8226",
     "https://koustav17.github.io/angular-pwa/runtime.edf4ff6924b895aead86.js": "9c87ed8120d4c28ce721916173a45a4e7f2043e4",
