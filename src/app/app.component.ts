@@ -33,6 +33,11 @@ export class AppComponent implements OnInit {
       duration: 2000,
       verticalPosition: 'top'
     })
+    } else {
+      this._snackBar.open('Form is not valid', 'Close', {
+        duration: 2000,
+        verticalPosition: 'top'
+      })
     }
   }
  
