@@ -7,11 +7,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
-
-import {MatButtonModule} from '@angular/material/button';
-import {MatInputModule} from '@angular/material/input';
-import {MatCardModule} from '@angular/material/card';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { SharedModule } from './module/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -28,12 +24,11 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     }),
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatButtonModule,
-    MatInputModule,
-    MatCardModule,
-    MatSnackBarModule
+    SharedModule
   ],
-  providers: [],
+  providers: [
+    SharedModule
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
