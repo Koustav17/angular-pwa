@@ -4,6 +4,10 @@
     margin: 100px 0px;
   }
 
+  p {
+    margin-bottom: 0px;
+  }
+
   .mat-form-field {
     width: 100%;
     min-width: 300px;
@@ -25,6 +29,7 @@
   .button {
     display: flex;
     justify-content: flex-end;
+    margin-top:10px;
   }
 
   .text-danger { color: red };

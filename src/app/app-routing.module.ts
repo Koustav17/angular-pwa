@@ -9,11 +9,15 @@ const routes: Routes = [
   },
   { 
     path: 'dashboard', 
-    loadChildren: () => import('./dasboard/dasboard.module').then(m => m.DasboardModule) 
+    loadChildren: () => import('./views/dasboard/dasboard.module').then(m => m.DasboardModule) 
   },
   { 
     path: 'home', 
-    loadChildren: () => import('./home/home.module').then(m => m.HomeModule) 
+    loadChildren: () => import('./views/home/home.module').then(m => m.HomeModule) 
+  },
+  { 
+    path: 'container', 
+    loadChildren: () => import('./views/container/container/container.module').then(m => m.ContainerModule) 
   }
 ];
 

@@ -7,11 +7,12 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
-import { SharedModule } from './module/shared/shared.module';
+import { SharedModule } from './views/module/shared/shared.module';
+import { ContainerModule } from './views/container/container/container.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,6 +25,7 @@ import { SharedModule } from './module/shared/shared.module';
     }),
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    ContainerModule,
     SharedModule
   ],
   providers: [
